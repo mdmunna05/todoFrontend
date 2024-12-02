@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3000/todos";
+const apiUrl = "https://todobackend-main.onrender.com";
 
 async function fetchTodos() {
     const response = await fetch(apiUrl);
